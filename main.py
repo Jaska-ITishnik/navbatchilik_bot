@@ -43,21 +43,6 @@ async def command_start_handler(message: Message) -> None:
         f"Assalomu aleykum Varahmatullohi Vabarakotuhu bu bot xonadonimizda kimning navbatchilik qilishini eslatadi"),
         parse_mode=ParseMode.HTML)
 
-
-# participants = ['@isa_zxc', '@muhammad6220', '@TDTU_40', '@Jaska_ITishnik', '@A1ko_Xursh1d_04', '@ufayzimatov', '@SherMuhammadR']
-# photos = [
-#     "https://telegra.ph/file/83670a9bc6ff094a75a2b.jpg",
-#     "https://telegra.ph/file/b35496066871c9bb370a0.png",
-#     "https://telegra.ph/file/04133303daac3d60b8a05.png",
-#     "https://telegra.ph/file/c99ed608d31016b686bf3.jpg",
-#     "https://telegra.ph/file/542c38f12d284b4e407ed.png",
-#     "https://telegra.ph/file/408e8f016ef5604eafe10.jpg",
-#     "https://telegra.ph/file/ab7d1d05ddcbd35540ab8.jpg"
-# ]
-#
-# for i in range(len(photos)):
-#     database[participants[i]] = photos[i]
-# database.clear()
 participants = database.keys()
 
 
